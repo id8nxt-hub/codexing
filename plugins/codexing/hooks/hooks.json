@@ -1,0 +1,30 @@
+{
+  "description": "Codexing (hosted). SessionStart asks the hosted server for one line of context; Stop nudges once per session in the LedgerLoop workspace when the visible suite is green.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "mcp_tool",
+            "server": "codexing",
+            "tool": "session_brief",
+            "input": {},
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${PLUGIN_ROOT}/hooks/stop.mjs\" --remote",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

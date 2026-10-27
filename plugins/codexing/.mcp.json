@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "codexing": {
+      "type": "http",
+      "url": "https://i2i-39038a.centralindia.cloudapp.azure.com/mcp"
+    }
+  }
+}

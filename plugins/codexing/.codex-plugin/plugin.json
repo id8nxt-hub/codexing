@@ -1,0 +1,42 @@
+{
+  "name": "codexing",
+  "version": "0.2.0",
+  "description": "Your Issue to Impact co-founder inside Codex: personal LedgerLoop ticket queue, honest reviews of your work, and progress synced back to the programme.",
+  "author": {
+    "name": "ID8NXT",
+    "url": "https://www.id8nxt.com/"
+  },
+  "homepage": "https://www.id8nxt.com/",
+  "license": "Proprietary",
+  "keywords": [
+    "codex",
+    "activation",
+    "tickets",
+    "ledgerloop",
+    "issue-to-impact",
+    "progress"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codexing",
+    "shortDescription": "Your ticket queue, reviews and streak, right inside Codex",
+    "longDescription": "Codexing is the Issue to Impact programme's connector inside Codex. Tag it to get a personal welcome, pick the next LedgerLoop ticket matched to your registration, ask for help when stuck, and say \"check my work\" any time you make progress. It reviews what you did, runs the ticket's automated checks and syncs verified progress to your programme dashboard, so your weekly streak and badges stay current. It never reads your prompts and only works on the sandbox repository.",
+    "developerName": "ID8NXT",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.id8nxt.com/",
+    "defaultPrompt": [
+      "Help me get started",
+      "Codexing, what should I work on next?",
+      "Codexing, check my work"
+    ],
+    "brandColor": "#000000",
+    "screenshots": [],
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/composer-icon.png"
+  }
+}

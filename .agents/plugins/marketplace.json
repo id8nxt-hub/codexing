@@ -1,0 +1,20 @@
+{
+  "name": "id8nxt",
+  "interface": {
+    "displayName": "ID8NXT"
+  },
+  "plugins": [
+    {
+      "name": "codexing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codexing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
