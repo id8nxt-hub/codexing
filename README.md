@@ -35,8 +35,8 @@ Then restart the Codex app.
 
 ## What it can see
 
-Codexing never reads your prompts. Its tools run on the Issue to Impact server (https://i2i-39038a.centralindia.cloudapp.azure.com) after you sign in, and only
+Codexing never reads your prompts. Its tools run on the Issue to Impact server (https://api.codexxing.id8devhub.com) after you sign in, and only
 work on the LedgerLoop sandbox. The hook on your machine reads the workspace folder and session ID, acts only in a
 folder whose `package.json` is named `ledgerloop`, and sends nothing anywhere.
 
-Trouble on Windows: https://i2i-39038a.centralindia.cloudapp.azure.com/help/windows
+Trouble on Windows: https://codexxing.id8devhub.com/help/windows
