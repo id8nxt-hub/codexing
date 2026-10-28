@@ -18,10 +18,17 @@ No `codex` command? Use `npx -y @openai/codex` in its place, for example
 
 Then:
 
-1. Quit the Codex app fully and open it again.
-2. When Codex asks, sign in to Issue to Impact in the browser and approve Codexing. If it doesn't ask, type `/mcp`
-   in Codex, pick `codexing`, then Authenticate.
-3. Open your LedgerLoop clone in Codex and say: `@Codexing help me get started`
+1. Quit the ChatGPT desktop app fully and open it again. We recommend signing in to it with a personal ChatGPT
+   account: this is purely for learning and experimenting.
+2. Link your account, once. Make sure you're using the desktop app, not the browser. Go to **Settings → Plugins →
+   Installed plugins**, click **Codexing**, then **MCP servers**, and click **Authenticate**. (It's also under
+   **Settings → MCP servers**, next to `codexing`.) A page opens: approve to link your account. Your account is
+   now linked, and your progress can be tracked. Don't worry: the plugin stops working automatically after the
+   event is over.
+3. In any chat, say: `@Codexing start`. It checks your computer is ready (Sites, computer use) and hands you your
+   first ticket. The first one ships a small Codex Site and needs no clone.
+
+> **Once the connection is done, you get one month of included usage on the house from OpenAI for this programme.**
 
 Optional: type `/hooks` in Codex and trust Codexing's hook. It nudges you to check your work when your tests go green.
 
