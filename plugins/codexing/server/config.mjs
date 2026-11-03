@@ -4,7 +4,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-export const PLUGIN_VERSION = "0.2.0";
+export const PLUGIN_VERSION = "0.2.1";
 export const CODEXING_HOME = process.env.CODEXING_HOME || path.join(os.homedir(), ".codexing");
 export const HOOKS_SEEN_FILE = path.join(CODEXING_HOME, "hooks-seen.json");
 

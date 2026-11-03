@@ -1,6 +1,6 @@
 # Codexing
 
-Codexing is the Issue to Impact connector for the Codex app. It hands you your next LedgerLoop ticket, reviews your
+Codexing is the Applied AI with Codex connector for the Codex app. It hands you your next LedgerLoop ticket, reviews your
 work, runs the ticket's checks and keeps your progress, streak and badges in sync with the programme.
 
 ## Install
@@ -28,8 +28,6 @@ Then:
 3. In any chat, say: `@Codexing start`. It checks your computer is ready (Sites, computer use) and hands you your
    first ticket. The first one ships a small Codex Site and needs no clone.
 
-> **Once the connection is done, you get one month of included usage on the house from OpenAI for this programme.**
-
 Optional: type `/hooks` in Codex and trust Codexing's hook. It nudges you to check your work when your tests go green.
 
 ## Update
@@ -42,7 +40,7 @@ Then restart the Codex app.
 
 ## What it can see
 
-Codexing never reads your prompts. Its tools run on the Issue to Impact server (https://api.codexxing.id8devhub.com) after you sign in, and only
+Codexing never reads your prompts. Its tools run on the Applied AI with Codex server (https://api.codexxing.id8devhub.com) after you sign in, and only
 work on the LedgerLoop sandbox. The hook on your machine reads the workspace folder and session ID, acts only in a
 folder whose `package.json` is named `ledgerloop`, and sends nothing anywhere.
 
